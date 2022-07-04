@@ -1,0 +1,3297 @@
+{
+    "id": 1,
+    "form": {
+        "2018": {
+            "aantalKlinischeOpnamen": 100,
+            "aantalPolikliniekBezoeken": 100,
+            "aantalSEHBezoeken": 100,
+            "isHetOpgegevenAantalInclusiefEHH": 100,
+            "totaalAantalSEHBezoekenPerMaand": {
+                "jan": 100,
+                "feb": 100,
+                "mrt": 100,
+                "apr": 100,
+                "mei": 100,
+                "jun": 100,
+                "jul": 100,
+                "aug": 100,
+                "sep": 100,
+                "okt": 100,
+                "nov": 100,
+                "dec": 100,
+                "zijnDeOpgegevenAantallenPerMaandInclusiefEHH": 1
+            },
+            "aantalBezoekenPerLeeftijdsgroepOpSEH": {
+                "0Jarigen": 100,
+                "1TM10": 100,
+                "11TM17": 100,
+                "18TM74": 100,
+                "75EnOuder": 100,
+                "onbekend": 100,
+                "isHetOpgegevenAantalPerLeeftijdsgroepInclusiefEHH": 1
+            },
+            "herkomstVanPatientenOpSEHViaAmbulance": {
+                "ambulance": 100,
+                "isHetOpgegevenAantalInclusiefAmbRittenVoorEHH": 1
+            },
+            "herkomstVanPatientenOpSEHViaVerwijzing": {
+                "opEigenInitiatiefZelfverwijzer": 100,
+                "viaEersteLijn": 100,
+                "viaTweedeLijn": 100,
+                "via112Melding": 100,
+                "isHetOpgegevenAantalInclusiefEHH": 1
+            },
+            "stapeldruktePerDag": {
+                "mon": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "tue": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "wed": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "thu": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "fri": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "sat": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "sun": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "zijnDeOpgegevenAantallenPerDagInclusiefEHH": 100,
+                "week": {
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                }
+            },
+            "doorlooptijdSEH": {
+                "gemiddeldeInMinuten": 100,
+                "mediaanInMinuten": 100,
+                "zijnGenoemdeWaardesInclusiefDeOvergangVanafEHH": 1
+            },
+            "specialismeVerdeling": {
+                "chi": 100,
+                "car": 100,
+                "int": 100,
+                "long": 100,
+                "neu": 100,
+                "ort": 100,
+                "kin": 100,
+                "mdl": 100,
+                "uro": 100,
+                "overig": 1
+            },
+            "aantalRegistratiesPerBestemmingNaAfloopSEHBezoek": {
+                "vervolgKlinischEigenZiekenhuis": 100,
+                "naarHuisVervolgPoliklinischEigenZiekenhuis": 100,
+                "naarAnderZiekenhuisKlinischEnPoliklinisch": 100,
+                "anderVervolgHuisartsVvtGgzOverlijdenEtc": 1
+            },
+            "aantalOpgenomenPatientenVanafSEHNaarKliniekICCCUDBCstroke": {
+                "aantalPatiëntenInDeKliniek": 100,
+                "aantalPatiëntenOpDeIc": 100,
+                "aantalPatiëntenOpDeCcu": 100,
+                "aantalPatiëntenDbcStrokeBijOpnameNaSEH": 1
+            },
+            "aantalCTVerrichtingen": 100,
+            "aantalEchoVerrichtingen": 100,
+            "aantalRöntgenVerrichtingen": 100,
+            "aantalTrombolyseMeldingen": 100,
+            "aantalLabAfnames": 1
+        },
+        "2019": {
+            "aantalKlinischeOpnamen": 100,
+            "aantalPolikliniekBezoeken": 100,
+            "aantalSEHBezoeken": 100,
+            "isHetOpgegevenAantalInclusiefEHH": 100,
+            "totaalAantalSEHBezoekenPerMaand": {
+                "jan": 100,
+                "feb": 100,
+                "mrt": 100,
+                "apr": 100,
+                "mei": 100,
+                "jun": 100,
+                "jul": 100,
+                "aug": 100,
+                "sep": 100,
+                "okt": 100,
+                "nov": 100,
+                "dec": 100,
+                "zijnDeOpgegevenAantallenPerMaandInclusiefEHH": 1
+            },
+            "aantalBezoekenPerLeeftijdsgroepOpSEH": {
+                "0Jarigen": 100,
+                "1TM10": 100,
+                "11TM17": 100,
+                "18TM74": 100,
+                "75EnOuder": 100,
+                "onbekend": 100,
+                "isHetOpgegevenAantalPerLeeftijdsgroepInclusiefEHH": 1
+            },
+            "herkomstVanPatientenOpSEHViaAmbulance": {
+                "ambulance": 100,
+                "isHetOpgegevenAantalInclusiefAmbRittenVoorEHH": 1
+            },
+            "herkomstVanPatientenOpSEHViaVerwijzing": {
+                "opEigenInitiatiefZelfverwijzer": 100,
+                "viaEersteLijn": 100,
+                "viaTweedeLijn": 100,
+                "via112Melding": 100,
+                "isHetOpgegevenAantalInclusiefEHH": 1
+            },
+            "stapeldruktePerDag": {
+                "mon": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "tue": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "wed": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "thu": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "fri": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "sat": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "sun": {
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                },
+                "zijnDeOpgegevenAantallenPerDagInclusiefEHH": 100,
+                "week": {
+                    "gem": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ],
+                    "max": [{
+                            "hour": 0,
+                            "value": 1
+                        },
+                        {
+                            "hour": 1,
+                            "value": 1
+                        },
+                        {
+                            "hour": 2,
+                            "value": 1
+                        },
+                        {
+                            "hour": 3,
+                            "value": 1
+                        },
+                        {
+                            "hour": 4,
+                            "value": 1
+                        },
+                        {
+                            "hour": 5,
+                            "value": 1
+                        },
+                        {
+                            "hour": 6,
+                            "value": 1
+                        },
+                        {
+                            "hour": 7,
+                            "value": 1
+                        },
+                        {
+                            "hour": 8,
+                            "value": 1
+                        },
+                        {
+                            "hour": 9,
+                            "value": 1
+                        },
+                        {
+                            "hour": 10,
+                            "value": 1
+                        },
+                        {
+                            "hour": 11,
+                            "value": 1
+                        },
+                        {
+                            "hour": 12,
+                            "value": 1
+                        },
+                        {
+                            "hour": 13,
+                            "value": 1
+                        },
+                        {
+                            "hour": 14,
+                            "value": 1
+                        },
+                        {
+                            "hour": 15,
+                            "value": 1
+                        },
+                        {
+                            "hour": 16,
+                            "value": 1
+                        },
+                        {
+                            "hour": 17,
+                            "value": 1
+                        },
+                        {
+                            "hour": 18,
+                            "value": 1
+                        },
+                        {
+                            "hour": 19,
+                            "value": 1
+                        },
+                        {
+                            "hour": 20,
+                            "value": 1
+                        },
+                        {
+                            "hour": 21,
+                            "value": 1
+                        },
+                        {
+                            "hour": 22,
+                            "value": 1
+                        },
+                        {
+                            "hour": 23,
+                            "value": 1
+                        }
+                    ]
+                }
+            },
+            "doorlooptijdSEH": {
+                "gemiddeldeInMinuten": 100,
+                "mediaanInMinuten": 100,
+                "zijnGenoemdeWaardesInclusiefDeOvergangVanafEHH": 1
+            },
+            "specialismeVerdeling": {
+                "chi": 100,
+                "car": 100,
+                "int": 100,
+                "long": 100,
+                "neu": 100,
+                "ort": 100,
+                "kin": 100,
+                "mdl": 100,
+                "uro": 100,
+                "overig": 1
+            },
+            "aantalRegistratiesPerBestemmingNaAfloopSEHBezoek": {
+                "vervolgKlinischEigenZiekenhuis": 100,
+                "naarHuisVervolgPoliklinischEigenZiekenhuis": 100,
+                "naarAnderZiekenhuisKlinischEnPoliklinisch": 100,
+                "anderVervolgHuisartsVvtGgzOverlijdenEtc": 1
+            },
+            "aantalOpgenomenPatientenVanafSEHNaarKliniekICCCUDBCstroke": {
+                "aantalPatiëntenInDeKliniek": 100,
+                "aantalPatiëntenOpDeIc": 100,
+                "aantalPatiëntenOpDeCcu": 100,
+                "aantalPatiëntenDbcStrokeBijOpnameNaSEH": 1
+            },
+            "aantalCTVerrichtingen": 100,
+            "aantalEchoVerrichtingen": 100,
+            "aantalRöntgenVerrichtingen": 100,
+            "aantalTrombolyseMeldingen": 100,
+            "aantalLabAfnames": 1
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dashboard-acute-zorg/static/css/main.148ffabc.css",
+    "main.js": "/dashboard-acute-zorg/static/js/main.759d4280.js",
+    "index.html": "/dashboard-acute-zorg/index.html",
+    "main.148ffabc.css.map": "/dashboard-acute-zorg/static/css/main.148ffabc.css.map",
+    "main.759d4280.js.map": "/dashboard-acute-zorg/static/js/main.759d4280.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.148ffabc.css",
+    "static/js/main.759d4280.js"
+  ]
+}

@@ -1,0 +1,3297 @@
+{
+    "id": null,
+    "form": {
+        "2018": {
+            "aantalKlinischeOpnamen": null,
+            "aantalPolikliniekBezoeken": null,
+            "aantalSEHBezoeken": null,
+            "isHetOpgegevenAantalInclusiefEHH": null,
+            "totaalAantalSEHBezoekenPerMaand": {
+                "jan": null,
+                "feb": null,
+                "mrt": null,
+                "apr": null,
+                "mei": null,
+                "jun": null,
+                "jul": null,
+                "aug": null,
+                "sep": null,
+                "okt": null,
+                "nov": null,
+                "dec": null,
+                "zijnDeOpgegevenAantallenPerMaandInclusiefEHH": null
+            },
+            "aantalBezoekenPerLeeftijdsgroepOpSEH": {
+                "0Jarigen": null,
+                "1TM10": null,
+                "11TM17": null,
+                "18TM74": null,
+                "75EnOuder": null,
+                "onbekend": null,
+                "isHetOpgegevenAantalPerLeeftijdsgroepInclusiefEHH": null
+            },
+            "herkomstVanPatientenOpSEHViaAmbulance": {
+                "ambulance": null,
+                "isHetOpgegevenAantalInclusiefAmbRittenVoorEHH": null
+            },
+            "herkomstVanPatientenOpSEHViaVerwijzing": {
+                "opEigenInitiatiefZelfverwijzer": null,
+                "viaEersteLijn": null,
+                "viaTweedeLijn": null,
+                "via112Melding": null,
+                "isHetOpgegevenAantalInclusiefEHH": null
+            },
+            "stapeldruktePerDag": {
+                "mon": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "tue": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "wed": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "thu": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "fri": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "sat": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "sun": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "zijnDeOpgegevenAantallenPerDagInclusiefEHH": null,
+                "week": {
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                }
+            },
+            "doorlooptijdSEH": {
+                "gemiddeldeInMinuten": null,
+                "mediaanInMinuten": null,
+                "zijnGenoemdeWaardesInclusiefDeOvergangVanafEHH": null
+            },
+            "specialismeVerdeling": {
+                "chi": null,
+                "car": null,
+                "int": null,
+                "long": null,
+                "neu": null,
+                "ort": null,
+                "kin": null,
+                "mdl": null,
+                "uro": null,
+                "overig": null
+            },
+            "aantalRegistratiesPerBestemmingNaAfloopSEHBezoek": {
+                "vervolgKlinischEigenZiekenhuis": null,
+                "naarHuisVervolgPoliklinischEigenZiekenhuis": null,
+                "naarAnderZiekenhuisKlinischEnPoliklinisch": null,
+                "anderVervolgHuisartsVvtGgzOverlijdenEtc": null
+            },
+            "aantalOpgenomenPatientenVanafSEHNaarKliniekICCCUDBCstroke": {
+                "aantalPatiëntenInDeKliniek": null,
+                "aantalPatiëntenOpDeIc": null,
+                "aantalPatiëntenOpDeCcu": null,
+                "aantalPatiëntenDbcStrokeBijOpnameNaSEH": null
+            },
+            "aantalCTVerrichtingen": null,
+            "aantalEchoVerrichtingen": null,
+            "aantalRöntgenVerrichtingen": null,
+            "aantalTrombolyseMeldingen": null,
+            "aantalLabAfnames": null
+        },
+        "2019": {
+            "aantalKlinischeOpnamen": null,
+            "aantalPolikliniekBezoeken": null,
+            "aantalSEHBezoeken": null,
+            "isHetOpgegevenAantalInclusiefEHH": null,
+            "totaalAantalSEHBezoekenPerMaand": {
+                "jan": null,
+                "feb": null,
+                "mrt": null,
+                "apr": null,
+                "mei": null,
+                "jun": null,
+                "jul": null,
+                "aug": null,
+                "sep": null,
+                "okt": null,
+                "nov": null,
+                "dec": null,
+                "zijnDeOpgegevenAantallenPerMaandInclusiefEHH": null
+            },
+            "aantalBezoekenPerLeeftijdsgroepOpSEH": {
+                "0Jarigen": null,
+                "1TM10": null,
+                "11TM17": null,
+                "18TM74": null,
+                "75EnOuder": null,
+                "onbekend": null,
+                "isHetOpgegevenAantalPerLeeftijdsgroepInclusiefEHH": null
+            },
+            "herkomstVanPatientenOpSEHViaAmbulance": {
+                "ambulance": null,
+                "isHetOpgegevenAantalInclusiefAmbRittenVoorEHH": null
+            },
+            "herkomstVanPatientenOpSEHViaVerwijzing": {
+                "opEigenInitiatiefZelfverwijzer": null,
+                "viaEersteLijn": null,
+                "viaTweedeLijn": null,
+                "via112Melding": null,
+                "isHetOpgegevenAantalInclusiefEHH": null
+            },
+            "stapeldruktePerDag": {
+                "mon": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "tue": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "wed": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "thu": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "fri": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "sat": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "sun": {
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                },
+                "zijnDeOpgegevenAantallenPerDagInclusiefEHH": null,
+                "week": {
+                    "gem": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ],
+                    "max": [{
+                            "hour": 0,
+                            "value": null
+                        },
+                        {
+                            "hour": 1,
+                            "value": null
+                        },
+                        {
+                            "hour": 2,
+                            "value": null
+                        },
+                        {
+                            "hour": 3,
+                            "value": null
+                        },
+                        {
+                            "hour": 4,
+                            "value": null
+                        },
+                        {
+                            "hour": 5,
+                            "value": null
+                        },
+                        {
+                            "hour": 6,
+                            "value": null
+                        },
+                        {
+                            "hour": 7,
+                            "value": null
+                        },
+                        {
+                            "hour": 8,
+                            "value": null
+                        },
+                        {
+                            "hour": 9,
+                            "value": null
+                        },
+                        {
+                            "hour": 10,
+                            "value": null
+                        },
+                        {
+                            "hour": 11,
+                            "value": null
+                        },
+                        {
+                            "hour": 12,
+                            "value": null
+                        },
+                        {
+                            "hour": 13,
+                            "value": null
+                        },
+                        {
+                            "hour": 14,
+                            "value": null
+                        },
+                        {
+                            "hour": 15,
+                            "value": null
+                        },
+                        {
+                            "hour": 16,
+                            "value": null
+                        },
+                        {
+                            "hour": 17,
+                            "value": null
+                        },
+                        {
+                            "hour": 18,
+                            "value": null
+                        },
+                        {
+                            "hour": 19,
+                            "value": null
+                        },
+                        {
+                            "hour": 20,
+                            "value": null
+                        },
+                        {
+                            "hour": 21,
+                            "value": null
+                        },
+                        {
+                            "hour": 22,
+                            "value": null
+                        },
+                        {
+                            "hour": 23,
+                            "value": null
+                        }
+                    ]
+                }
+            },
+            "doorlooptijdSEH": {
+                "gemiddeldeInMinuten": null,
+                "mediaanInMinuten": null,
+                "zijnGenoemdeWaardesInclusiefDeOvergangVanafEHH": null
+            },
+            "specialismeVerdeling": {
+                "chi": null,
+                "car": null,
+                "int": null,
+                "long": null,
+                "neu": null,
+                "ort": null,
+                "kin": null,
+                "mdl": null,
+                "uro": null,
+                "overig": null
+            },
+            "aantalRegistratiesPerBestemmingNaAfloopSEHBezoek": {
+                "vervolgKlinischEigenZiekenhuis": null,
+                "naarHuisVervolgPoliklinischEigenZiekenhuis": null,
+                "naarAnderZiekenhuisKlinischEnPoliklinisch": null,
+                "anderVervolgHuisartsVvtGgzOverlijdenEtc": null
+            },
+            "aantalOpgenomenPatientenVanafSEHNaarKliniekICCCUDBCstroke": {
+                "aantalPatiëntenInDeKliniek": null,
+                "aantalPatiëntenOpDeIc": null,
+                "aantalPatiëntenOpDeCcu": null,
+                "aantalPatiëntenDbcStrokeBijOpnameNaSEH": null
+            },
+            "aantalCTVerrichtingen": null,
+            "aantalEchoVerrichtingen": null,
+            "aantalRöntgenVerrichtingen": null,
+            "aantalTrombolyseMeldingen": null,
+            "aantalLabAfnames": null
+        }
+    }
+}
