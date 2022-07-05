@@ -68,18 +68,13 @@ export function PersoneleBezetting(
 
   const openDichtDagPersoneleBezetting = selectedZiekenhuis!.seh.openDichtDagPersoneleBezetting
   const setZiekenhuisOpenDichtDagPersoneleBezetting = useStoreActions(action => action.setZiekenhuisOpenDichtDagPersoneleBezetting)
-
-  let numCols = 1 + (
-    Number(includeDag) + 
-    Number(includeAvond) + 
-    Number(includeNacht)) * 2
-  const customGrid2 = 'grid-cols-7' //+(numCols).toString()
-  const customGrid = 'grid-cols-' + (numCols).toString()
-  console.log(customGrid, customGrid2)
-  // console.log('custom grid', customGrid === customGrid2)
-
+   
+  let className = "grid grid-cols-3 items-center gap-2"
+  if (includeDag && includeAvond) {
+    className = "grid grid-cols-7 items-center gap-2"
+  } 
   return (
-    <div className={`grid ${customGrid} items-center gap-2`}>
+    <div className={className}>
       <div className="italic"> personeel </div>
       {includeDag && <div className="italic"> dag open </div>}
       {includeDag && <div className="italic"> dag dicht </div>}
