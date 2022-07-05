@@ -60,7 +60,7 @@ const App = () => {
   ]
 
   return (
-    <div className="App">
+    <div className="App text-xs">
 
       <Map />
       <div className="p-2 sidepanel-container shadow-inner bg-neutral-100 flex flex-col gap-2">

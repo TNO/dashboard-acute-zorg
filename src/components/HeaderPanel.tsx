@@ -44,10 +44,10 @@ export const HeaderPanel: FC = () => {
         </div>
 
         <div className="grid grid-cols-4 items-center gap-2 text-center mt-5">
-          <div> sluitingswindow <InformationIcon informationText={SLUITINGS_WINDOW_INFO} /> </div>
-          <div > jaar <InformationIcon informationText={JAAR_SELECT_INFO} /> </div>
-          <div> vervoerskosten <InformationIcon informationText={VERVOERSKOSTEN_INFO} /> </div>
-          <div> beladen kilometers <InformationIcon informationText={BELADEN_KILOMETERS_INFO} /> </div>
+          <div className=""> sluitingswindow <InformationIcon informationText={SLUITINGS_WINDOW_INFO} /> </div>
+          <div className="" > jaar <InformationIcon informationText={JAAR_SELECT_INFO} /> </div>
+          <div className=""> vervoerskosten <InformationIcon informationText={VERVOERSKOSTEN_INFO} /> </div>
+          <div className=""> beladen kilometers <InformationIcon informationText={BELADEN_KILOMETERS_INFO} /> </div>
 
 
           <Select

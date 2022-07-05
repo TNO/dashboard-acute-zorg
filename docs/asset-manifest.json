@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dashboard-acute-zorg/static/css/main.148ffabc.css",
-    "main.js": "/dashboard-acute-zorg/static/js/main.759d4280.js",
+    "main.css": "/dashboard-acute-zorg/static/css/main.9aead6d8.css",
+    "main.js": "/dashboard-acute-zorg/static/js/main.ceb99138.js",
     "index.html": "/dashboard-acute-zorg/index.html",
-    "main.148ffabc.css.map": "/dashboard-acute-zorg/static/css/main.148ffabc.css.map",
-    "main.759d4280.js.map": "/dashboard-acute-zorg/static/js/main.759d4280.js.map"
+    "main.9aead6d8.css.map": "/dashboard-acute-zorg/static/css/main.9aead6d8.css.map",
+    "main.ceb99138.js.map": "/dashboard-acute-zorg/static/js/main.ceb99138.js.map"
   },
   "entrypoints": [
-    "static/css/main.148ffabc.css",
-    "static/js/main.759d4280.js"
+    "static/css/main.9aead6d8.css",
+    "static/js/main.ceb99138.js"
   ]
 }

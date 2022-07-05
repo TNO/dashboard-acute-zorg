@@ -16,7 +16,7 @@ const LightTooltip = styled(({ className, ...props }: TooltipProps) => (
   
   export const InformationIcon = ({ informationText }: { informationText: string }) => {
     return (
-      <LightTooltip title={informationText}>
+      <LightTooltip title={informationText} >
         <InfoOutlinedIcon />
       </LightTooltip>
     )

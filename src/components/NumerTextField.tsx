@@ -24,7 +24,9 @@ export const NumberTextInput: FC<Props> = (props) => {
     error={!isValidNumber(currentInput)}
     helperText={!isValidNumber(currentInput) && "must be a valid number"}
     size="small"
+    variant="standard"
     value={currentInput}
+    fullWidth
     onChange={(event) => {
       const newInput = event.target.value
       setCurrentInput(newInput)

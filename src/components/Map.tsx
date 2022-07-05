@@ -23,6 +23,7 @@ import { areInSameRoazegio } from "../processing/regios"
 import FormGroup from "@mui/material/FormGroup"
 import FormControlLabel from "@mui/material/FormControlLabel"
 import Checkbox from "@mui/material/Checkbox"
+
 import gevoeligeziekenhuizen from '../assets/gevoeligeziekenhuizen.json';
 import stedelijkeziekenhuizen from '../assets/stedelijkeziekenhuizen.json';
 import beschikbaredataziekenhuizen from '../assets/beschikbaredataziekenhuizen.json';
@@ -32,6 +33,7 @@ import { FileUploadButton } from "./FileUploadButton"
 import { InformationIcon } from "./InformationIcon"
 import { DOWNLOAD_INFO } from "../texts"
 import { removeAllSehFormsFromIndexDatabase } from "../states/sehdatabase"
+import { fontSize } from "@mui/system"
 
 const ziekenhuisSVG =
   '<svg xmlns="http://www.w3.org/2000/svg" stroke="black" stroke-width="4" fill="{mapIconColor}" viewBox="0 0 36 44" width="20" height="20"><path d="M18.664.253a1 1 0 0 0-1.328 0L.328 15.702a1 1 0 0 0-.328.74V44h36V16.443a1 1 0 0 0-.328-.74zM25 29h-4v4a3 3 0 0 1-6 0v-4h-4a3 3 0 0 1 0-6h4v-4a3 3 0 0 1 6 0v4h4a3 3 0 0 1 0 6z"/></svg>';
@@ -232,8 +234,8 @@ export const Map = () => {
 
       <Control position="bottomleft">
         <div className="flex flex-col gap-2">
-          
-        <Button
+
+          <Button
             variant="contained"
             component="label"
             color="secondary"
@@ -248,7 +250,7 @@ export const Map = () => {
           </Button>
 
           <FileUploadButton />
-          
+
           <Button
             variant="contained"
             component="label"
@@ -275,90 +277,73 @@ export const Map = () => {
           </Select>
         </div>
         <div className="px-3 py-1 bg-slate-200"> filter parameters voor nachtsluiting </div>
-        <div className="px-3 bg-white">
-          <div className="content-end">
-            <FormGroup>
-
-              <FormControlLabel
-                label={
-                  <div className="flex flex-row gap-2 items-center">
-                    <div> {"aantal SEH bezoeken < "} </div>
-
-                    <div className="w-1/3"> <NumberTextInput
-                      value={lowerSEHBezoekersBound}
-                      setValue={setLowerSEHBezoekersBound}
-                    />
-                    </div>
-                  </div>
-                }
-                control={<Checkbox
-                  checked={filter1}
-                  onClick={(e) => { setFilter1(prev => !prev) }}
-                />} />
-
-              <FormControlLabel
-                label={
-                  <div className="flex flex-row gap-2 items-center">
-                    <div> {"maximale drukte 00:00h <"} </div>
-                    <div className="w-1/3">
-                      <NumberTextInput
-                        value={lowerMidnightMaxDrukteBound}
-                        setValue={setLowerMidnightMaxDrukteBound}
-                      />
-                    </div>
-                  </div>
-                }
-                control={
-                  <Checkbox
-                    checked={filter2}
-                    onClick={(e) => { setFilter2(prev => !prev) }}
-                  />
-                }
+        <div className="flex flex-col pr-2 bg-white">
+          <div className="flex justify-start items-center">
+            <Checkbox
+              size="small"
+              checked={filter1}
+              onClick={() => { setFilter1(prev => !prev) }}
+            />
+            <div className="text-sm"> {"aantal SEH bezoeken < "} </div>
+            <div className="w-1/4">
+              <NumberTextInput
+                value={lowerSEHBezoekersBound}
+                setValue={setLowerSEHBezoekersBound}
               />
-              <FormControlLabel
-                label={
-                  <div className="flex flex-row gap-2 items-center">
-                    <div> {"gemiddelde drukte 00:00h <"} </div>
-                    <div className="w-1/3">
-                      <NumberTextInput
-                        value={lowerMidnightGemDrukteBound}
-                        setValue={setLowerMidnightGemDrukteBound}
-                      />
-                    </div>
-                  </div>
-                }
-                control={
-                  <Checkbox
-                    checked={filter3}
-                    onClick={(e) => { setFilter3(prev => !prev) }}
-                  />
-                }
-              />
+            </div>
+          </div>
 
-              <FormControlLabel
-                label="houd gevoelige ziekenhuizen open"
-                control={<Checkbox
-                  checked={filter4}
-                  onClick={(e) => { setFilter4(prev => !prev) }}
-                />}
+          <div className="flex items-center justify-start">
+            <Checkbox
+              size="small"
+              checked={filter2}
+              onClick={() => { setFilter2(prev => !prev) }}
+            />
+            <div className="text-sm"> {"maximale drukte 00:00h <"} </div>
+            <div className="w-1/4">
+              <NumberTextInput
+                value={lowerMidnightMaxDrukteBound}
+                setValue={setLowerMidnightMaxDrukteBound}
               />
+            </div>
 
-              <FormControlLabel
-                label="sluit ziekenhuizen in stedelijk gebied"
-                control={<Checkbox
-                  checked={filter5}
-                  onClick={(e) => { setFilter5(prev => !prev) }}
-                  disabled={true}
-                />}
+          </div>
+
+          <div className="flex justify-start items-center">
+            <Checkbox
+              size="small"
+              checked={filter3}
+              onClick={() => { setFilter3(prev => !prev) }}
+            />
+            <div className="text-sm"> {"gemiddelde drukte 00:00h < "} </div>
+            <div className="w-1/4">
+              <NumberTextInput
+                value={lowerMidnightGemDrukteBound}
+                setValue={setLowerMidnightGemDrukteBound}
               />
-            </FormGroup>
+            </div>
+          </div>
+
+          <div className="flex justify-start items-center">
+            <Checkbox
+              size="small"
+              checked={filter4}
+              onClick={() => { setFilter4(prev => !prev) }}
+            />
+            <div className="text-sm">houd gevoelige ziekenhuizen open</div>
+          </div>
+
+          <div className="flex justify-start items-center">
+            <Checkbox
+              size="small"
+              checked={filter5}
+              onClick={() => { setFilter5(prev => !prev) }}
+              disabled={true}
+            />
+            <div className="text-sm">sluit ziekenhuizen in stedelijk gebied</div>
           </div>
         </div>
       </Control>
-
-
-
-
     </MapContainer>
   )
 }
