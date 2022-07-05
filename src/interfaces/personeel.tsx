@@ -73,8 +73,11 @@ export function PersoneleBezetting(
     Number(includeDag) + 
     Number(includeAvond) + 
     Number(includeNacht)) * 2
-  const customGrid = 'grid-cols-'+(numCols).toString()
-  
+  const customGrid2 = 'grid-cols-7' //+(numCols).toString()
+  const customGrid = 'grid-cols-' + (numCols).toString()
+  console.log(customGrid, customGrid2)
+  // console.log('custom grid', customGrid === customGrid2)
+
   return (
     <div className={`grid ${customGrid} items-center gap-2`}>
       <div className="italic"> personeel </div>

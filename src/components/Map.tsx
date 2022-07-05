@@ -56,15 +56,15 @@ const ZiekenhuisMarker: FC<{
   const defaultActiveHours = ziekenhuis.seh.defaultActiveHours
   const changedActiveHours = !areActiveHoursEqual(currentActiveHours, defaultActiveHours)
 
-  const isSEHdatabeschikbaar = ziekenhuis.id in beschikbaredataziekenhuizen
+  const isSEHdatabeschikbaar = beschikbaredataziekenhuizen.includes(ziekenhuis.id)
   const isSEHFormEmpty = ziekenhuis.seh.isSehFormEmpty
 
   let extraCSS = "fill-white"
   if (!isSEHdatabeschikbaar) {
-    extraCSS = "fill-neutral-500 opacity-50"
+    extraCSS = "fill-neutral-400"
   }
   else if (isSEHFormEmpty) {
-    extraCSS = "fill-neutral-100 opacity-50"
+    extraCSS = "fill-white opacity-70"
   }
   else if (changedActiveHours) {
     extraCSS = "fill-orange-300"

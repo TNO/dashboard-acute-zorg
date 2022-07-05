@@ -16,3 +16,6 @@ export const OPENINGSTIJDEN_INFO = "De openingstijden kennen 3 presets; 24/7; Na
 export const SLUITING_CHECKBOX_INFO = "Voor volledige SEH sluiting moet een personele bezetting voor dag-, avond-, en nachtsituatie worden opgegeven.  Het is voor te stellen dat niet de volledige kernbezetting wegvalt bij sluiting vanwege dubbelfuncties van personeel. Dit kan hier worden meegenomen."
 export const NACHTSLUITING_CHECKBOX_INFO = "Voor de nachtsituatie staat de personele bezetting default op 1 arts-SEH en 2 SEH-vpk. Bij nachtsluiting op 1 arts-SEH en 1 SEH vpk. Dit kan aangepast worden per ziekenhuis."
 export const PERSONELE_BEZETTING_INFO = "De personele bezetting is vereenvoudigde weergave van de werkelijkheid. Onder arts-SEH vallen zowel een SEH-arts als poortspecialist met de benodigde ervaring op de SEH. Onder de categorie AIO/ANIOS valt ook eventueel ander personeel. Niet zijnde SEH vpk en art-SEH. De 3 categorieën zijn opgenomen om enige differentiatie in personeelskosten op te nemen."
+
+export const FILTER_INFO = ""
+export const SEH_DETAILS_INFO = ""
