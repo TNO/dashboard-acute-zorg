@@ -12,7 +12,7 @@ import DataTable from './DataTable'
 import { calculateSavedSalarisCosts, calculateSavedFte, PersoneleBezetting, calculateExtraSEHCosts } from '../interfaces/personeel'
 import { formatWithCommas } from '../processing/utils'
 import { InformationIcon } from './InformationIcon'
-import { NACHTSLUITING_CHECKBOX_INFO, OPENINGSTIJDEN_INFO, PERSONELE_BEZETTING_INFO, SLUITING_CHECKBOX_INFO } from '../texts'
+import { NACHTSLUITING_CHECKBOX_INFO, OPENINGSTIJDEN_INFO, PERSONELE_BEZETTING_INFO, SEH_DETAILS_INFO, SLUITING_CHECKBOX_INFO } from '../texts'
 
 export const HourDot: FC<{ hour: number, filled: boolean }> = ({ hour, filled }) => {
   const bgColor = filled ? "bg-green-400" : "bg-white"
@@ -174,8 +174,10 @@ export const ZiekenhuisPanel: FC<Props> = ({ ziekenhuis }) => {
 
       <StapeldrukteChart stapeldrukteDatas={stapeldrukteDatas} />
 
-      <div className="w-full font-bold text-center"> SEH details </div>
-
+      <div className="flex gap-2">
+        <div className="w-full font-bold text-center"> SEH details </div>
+        <InformationIcon informationText={SEH_DETAILS_INFO} />
+      </div>
       <DataTable data={[
         { name: "SEH Bezoeken", value: `${formatWithCommas(ziekenhuis.seh.sehForm[currentYear].aantalSEHBezoeken)} (${-minusSEHBezoeken}, ${(-(1 - fractionGem) * 100).toFixed()}% )` },
         { name: "aantal klinisch", value: formatWithCommas(ziekenhuis.seh.sehForm[currentYear].aantalKlinischeOpnamen) },

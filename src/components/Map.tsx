@@ -31,7 +31,7 @@ import { NumberTextInput } from "./NumerTextField"
 import Button from "@mui/material/Button"
 import { FileUploadButton } from "./FileUploadButton"
 import { InformationIcon } from "./InformationIcon"
-import { DOWNLOAD_INFO } from "../texts"
+import { DOWNLOAD_INFO, FILTER_INFO } from "../texts"
 import { removeAllSehFormsFromIndexDatabase } from "../states/sehdatabase"
 import { fontSize } from "@mui/system"
 
@@ -281,7 +281,10 @@ export const Map = () => {
             <MenuItem value={"Roaz"}> {"Roaz"} </MenuItem>
           </Select>
         </div>
+        <div className="flex gap-2">
         <div className="px-3 py-1 bg-slate-200"> filter parameters voor nachtsluiting </div>
+            <InformationIcon informationText={FILTER_INFO} />
+        </div>
         <div className="flex flex-col pr-2 bg-white">
           <div className="flex justify-start items-center">
             <Checkbox
