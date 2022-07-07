@@ -66,7 +66,7 @@ export const LandelijkPanel: FC = () => {
   )
 
   return (
-    <div className="flex flex-col items-center justify-center gap-2 text-sm">
+    <div className="flex flex-col items-center justify-center gap-2">
 
       <div className="flex flex-row gap-2">
 

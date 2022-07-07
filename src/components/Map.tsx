@@ -187,13 +187,13 @@ export const Map = () => {
 
       <LayersControl position="topright">
 
-        <LayersControl.BaseLayer name="Default">
+        <LayersControl.BaseLayer checked name="Wereld">
           <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
           />
         </LayersControl.BaseLayer>
 
-        <LayersControl.BaseLayer checked name="Grijs NL">
+        <LayersControl.BaseLayer name="Grijs NL">
           <TileLayer
             url='https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0?layer=grijs&style=default&tilematrixset=EPSG:3857&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:28992:{z}&TileCol={x}&TileRow={y}'
           />
@@ -271,7 +271,7 @@ export const Map = () => {
 
 
       <Control position="bottomleft">
-        <div className="px-3 py-1 bg-slate-200"> selecteer regio indeling: </div>
+        <div className="px-3 py-1 bg-slate-200 text-xl"> selecteer regio indeling </div>
         <div className="bg-white">
           <Select
             className="uppercase"
@@ -281,9 +281,9 @@ export const Map = () => {
             <MenuItem value={"Roaz"}> {"Roaz"} </MenuItem>
           </Select>
         </div>
-        <div className="flex gap-2">
-        <div className="px-3 py-1 bg-slate-200"> filter parameters voor nachtsluiting </div>
-            <InformationIcon informationText={FILTER_INFO} />
+        <div className="w-full flex gap-2 bg-slate-200 px-3 py-1 items-center">
+          <div className="text-xl"> filter parameters voor nachtsluiting </div>
+          <InformationIcon informationText={FILTER_INFO} />
         </div>
         <div className="flex flex-col pr-2 bg-white">
           <div className="flex justify-start items-center">
