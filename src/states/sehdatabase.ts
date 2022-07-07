@@ -37,6 +37,8 @@ export async function loadAllSehFormsFromIndexDatabase(loadSEHForm: ActionCreato
     const ziekenhuisId = parseInt(key.toString())
     loadSEHForm({ziekenhuisId: ziekenhuisId, sehForm: sehForm})
   })
+
+  return true
 }
 
 export async function removeAllSehFormsFromIndexDatabase() {

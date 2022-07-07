@@ -256,7 +256,7 @@ export const Map = () => {
 
           <FileUploadButton />
 
-          <Button
+          {/* <Button
             variant="contained"
             component="label"
             onClick={() => window.open("https://raw.github.com/tno/dashboard-acute-zorg/main/src/assets/TOTAAL SEH DATA 2018 en 2019_2.0_050722.pdf", "_blank")}
@@ -265,7 +265,7 @@ export const Map = () => {
               <div> Download landelijk overzicht </div>
               <InformationIcon informationText={DOWNLOAD_INFO} />
             </div>
-          </Button>
+          </Button> */}
         </div>
       </Control>
 
