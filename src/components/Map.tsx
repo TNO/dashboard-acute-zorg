@@ -112,14 +112,18 @@ const ZiekenhuisMarker: FC<{
 export const Map = () => {
 
   const ziekenhuizen = useStoreState(state => state.ziekenhuizen)
-  const selectedZiekenhuis = useStoreState(state => state.selectedZiekenhuis)
+  const selectedZiekenhuisId = useStoreState(state => state.selectedZiekenhuisId)
   const regioIndeling = useStoreState(state => state.regioIndeling)
   const currentYear = useStoreState(state => state.currentYear)
 
-  const setSelectedZiekenhuis = useStoreActions(actions => actions.setSelectedZiekenhuis)
+  const setSelectedZiekenhuisId = useStoreActions(actions => actions.setSelectedZiekenhuisId)
   const setRegioIndeling = useStoreActions(actions => actions.setRegioIndeling)
   const setZiekenhuisActiveOpenHour = useStoreActions(actions => actions.setZiekenhuisActiveOpenHour)
   const setZiekenhuisActiveCloseHour = useStoreActions(actions => actions.setZiekenhuisActiveCloseHour)
+
+  const resetZiekenhuizen = useStoreActions(actions => actions.resetZiekenhuizen)
+
+  const selectedZiekenhuis = ziekenhuizen.find(zkh => zkh.id === selectedZiekenhuisId)
 
   const highlightedLatLon = selectedZiekenhuis?.latlon
   const currentRegioOption = regioIndelingOptions.find(option => option.value === regioIndeling)
@@ -208,7 +212,7 @@ export const Map = () => {
               const eventHandler = {
                 click: () => {
                   if (!ziekenhuis.seh.isSehFormEmpty) {
-                    setSelectedZiekenhuis(ziekenhuis)
+                    setSelectedZiekenhuisId(ziekenhuis.id)
                   }
                 },
               }
@@ -241,6 +245,7 @@ export const Map = () => {
             color="secondary"
             onClick={() => {
               removeAllSehFormsFromIndexDatabase()
+              resetZiekenhuizen()
             }}
           >
             <div className="flex gap-2">
@@ -254,7 +259,7 @@ export const Map = () => {
           <Button
             variant="contained"
             component="label"
-            onClick={() => window.open("https://raw.github.com/sjaquemate/seh-spreiding/main/src/assets/SEH DATA 2018 en 2019_1.3_010522.pdf", "_blank")}
+            onClick={() => window.open("https://raw.github.com/tno/dashboard-acute-zorg/main/src/assets/TOTAAL SEH DATA 2018 en 2019_2.0_050722.pdf", "_blank")}
           >
             <div className="flex gap-2">
               <div> Download landelijk overzicht </div>

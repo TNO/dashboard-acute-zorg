@@ -17,7 +17,7 @@ import { LANDELIJK_REGIONAAL_SELECT_INFO, SALARISKOSTEN_BESPARING_INFO, VERVOERS
 export const LandelijkPanel: FC = () => {
 
   let ziekenhuizen = useStoreState(state => state.ziekenhuizen)
-  const selectedZiekenhuis = useStoreState(state => state.selectedZiekenhuis)
+  const selectedZiekenhuisId = useStoreState(state => state.selectedZiekenhuisId)
   // const regioIndeling = useStoreState(state => state.regioIndeling)
   const closingWindow = useStoreState(state => state.closingWindow)
   const currentYear = useStoreState(state => state.currentYear)
@@ -26,12 +26,14 @@ export const LandelijkPanel: FC = () => {
   const klinischOpvangPercentage = useStoreState(state => state.klinischOpvangPercentage)
   const setKlinischOpvangPercentage = useStoreActions(actions => actions.setKlinischOpvangPercentage)
 
+  const selectedZiekenhuis = ziekenhuizen.find(zkh => zkh.id === selectedZiekenhuisId) 
   const [selectedPanel, setSelectedPanel] = useState<"Landelijk" | "Regionaal">("Landelijk")
-
+  
   if (selectedPanel === "Regionaal") {
     ziekenhuizen = getRegionaleRoazZiekenhuizen(selectedZiekenhuis!, ziekenhuizen)
     console.log('regionale ziekenhuizen', ziekenhuizen)
   }
+
 
   // general 
   const aantalAangepasteSEHs = ziekenhuizen.filter(zkh => (zkh.seh.currentActiveHours.open != zkh.seh.defaultActiveHours.open) ||
@@ -55,7 +57,7 @@ export const LandelijkPanel: FC = () => {
 
   // extra drukte and costs 
   const extraSEHDruktes = ziekenhuizen.map(ziekenhuis => calculateExtraSEHDrukte(ziekenhuis, currentYear, closingWindow, klinischOpvangPercentage))
-  console.log("change", klinischOpvangPercentage)
+
   const extraSEHDrukte = sumExtraSEHDruktes(extraSEHDruktes)
   const extraSEHCosts = sumExtraSEHCosts(
     ziekenhuizen.map(

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Map } from "./components/Map";
 import { HeaderPanel } from "./components/HeaderPanel";
 import { LandelijkPanel } from "./components/LandelijkPanel";
@@ -14,12 +14,14 @@ import { EXTRA_DRUK_INFO } from "./texts";
 const App = () => {
 
   const ziekenhuizen = useStoreState(state => state.ziekenhuizen)
-  const selectedZiekenhuis = useStoreState(state => state.selectedZiekenhuis)
+  const selectedZiekenhuisId = useStoreState(state => state.selectedZiekenhuisId)
   const setZiekenhuisActiveOpenHour = useStoreActions(actions => actions.setZiekenhuisActiveOpenHour)
   const setZiekenhuisActiveCloseHour = useStoreActions(actions => actions.setZiekenhuisActiveCloseHour)
   const setZiekenhuisOpenDichtDagPersoneleBezetting = useStoreActions(actions => actions.setZiekenhuisOpenDichtDagPersoneleBezetting)
   const loadSEHForm = useStoreActions(actions => actions.loadSEHForm)
 
+  const selectedZiekenhuis = ziekenhuizen.find(zkh => zkh.id === selectedZiekenhuisId)
+  
   useEffect(() => {
     // load from hash
     const hash = getHashFromUrl()
@@ -39,6 +41,20 @@ const App = () => {
     setHash(ziekenhuizen)
   }, [ziekenhuizen])
 
+  const [ziekenhuisIsClickable, setZiekenhuisIsClickable] = useState(false)
+  
+  useEffect(() => {
+    setZiekenhuisIsClickable(
+      (selectedZiekenhuis !== undefined) &&
+      (!selectedZiekenhuis.seh.isSehFormEmpty)
+    )
+    console.log(
+      (selectedZiekenhuis),
+      (selectedZiekenhuis?.seh.isSehFormEmpty),
+      (selectedZiekenhuis?.seh.sehForm)
+    )
+  }, [ziekenhuizen, selectedZiekenhuis])
+
   const accordionRows = [
     {
       header: (
@@ -51,11 +67,12 @@ const App = () => {
       disabled: false
     },
     {
-      header: (selectedZiekenhuis === undefined) ?
-        <div className="">(selecteer een ziekenhuis op de kaart)</div> :
-        <div className="font-bold italic">{`${selectedZiekenhuis.locatie}`}</div>, // (${selectedZiekenhuis?.id})
-      content: selectedZiekenhuis && <ZiekenhuisPanel ziekenhuis={selectedZiekenhuis} />,
-      disabled: selectedZiekenhuis === undefined
+      header: (ziekenhuisIsClickable ?
+        <div className="font-bold italic">{`${selectedZiekenhuis!.locatie}`}</div> :
+        <div className="">(selecteer een ziekenhuis op de kaart)</div>
+      ),
+      content: ziekenhuisIsClickable ? <ZiekenhuisPanel ziekenhuis={selectedZiekenhuis!} /> : <></>,
+      disabled: !ziekenhuisIsClickable
     }
   ]
 

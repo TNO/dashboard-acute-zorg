@@ -64,8 +64,9 @@ export function PersoneleBezetting(
 ) {
 
   const ziekenhuizen = useStoreState(state => state.ziekenhuizen)
-  const selectedZiekenhuis = useStoreState(state => state.selectedZiekenhuis)
-
+  const selectedZiekenhuisId = useStoreState(state => state.selectedZiekenhuisId)
+  const selectedZiekenhuis = ziekenhuizen.find(zkh => zkh.id === selectedZiekenhuisId)
+  
   const openDichtDagPersoneleBezetting = selectedZiekenhuis!.seh.openDichtDagPersoneleBezetting
   const setZiekenhuisOpenDichtDagPersoneleBezetting = useStoreActions(action => action.setZiekenhuisOpenDichtDagPersoneleBezetting)
    

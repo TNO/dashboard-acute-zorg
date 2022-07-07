@@ -33,16 +33,16 @@ const initializeZiekenhuizen = (): IZiekenhuis[] => {
     let roazRegio = ['not found']
     if (hasMatchingRoazRegio) {
       roazRegio = (roazregios as any)[id] as string[]
-    } 
+    }
     else {
       console.error(`ziekenhuis ${id} has no matching roazregio from json file`)
     }
-    
+
     // load ziekenhuis categories based on ziekenhuis id 
     let fulltimeSEH = false
     let dagofavondSEH = false
     let branchmembership: IBranchMembership = { saz: false, stz: false, nfu: false }
-    let hasSazSEH = false 
+    let hasSazSEH = false
 
     if (!(id in ziekenhuisCategories)) {
       console.error(`${id} not in ziekenhuisCategories`)
@@ -57,9 +57,9 @@ const initializeZiekenhuizen = (): IZiekenhuis[] => {
         nfu: (ziekenhuisCategories as any)[id].nfu,
       }
 
-      hasSazSEH =  (ziekenhuisCategories as any)[id].saz && (
-        (ziekenhuisCategories as any)[id].fulltimeSEH || 
-        (ziekenhuisCategories as any)[id].dagofavondSEH 
+      hasSazSEH = (ziekenhuisCategories as any)[id].saz && (
+        (ziekenhuisCategories as any)[id].fulltimeSEH ||
+        (ziekenhuisCategories as any)[id].dagofavondSEH
       )
     }
 
@@ -102,7 +102,7 @@ const initializeZiekenhuizen = (): IZiekenhuis[] => {
 
     let openDefault: Hour = 0
     let closeDefault: Hour = 24
-    
+
     return {
       id: z.properties.id,
       latlon: [z.geometry.coordinates[1], z.geometry.coordinates[0]],
@@ -133,63 +133,63 @@ const initializeZiekenhuizen = (): IZiekenhuis[] => {
 
 export interface Model {
   ziekenhuizen: IZiekenhuis[]
-  selectedZiekenhuis?: IZiekenhuis
-  setSelectedZiekenhuis: Action<Model, IZiekenhuis>
-  setZiekenhuisActiveOpenHour: Action<Model, {ziekenhuis: IZiekenhuis, open: Hour}>
-  setZiekenhuisActiveCloseHour: Action<Model, {ziekenhuis: IZiekenhuis, close: Hour}>
-  closingWindow: number 
-  setClosingWindow: Action<Model, number> 
+  resetZiekenhuizen: Action<Model>
+  selectedZiekenhuisId: number | undefined 
+  setSelectedZiekenhuisId: Action<Model, number | undefined>
+  setZiekenhuisActiveOpenHour: Action<Model, { ziekenhuis: IZiekenhuis, open: Hour }>
+  setZiekenhuisActiveCloseHour: Action<Model, { ziekenhuis: IZiekenhuis, close: Hour }>
+  closingWindow: number
+  setClosingWindow: Action<Model, number>
   currentYear: 2018 | 2019
   setCurrentYear: Action<Model, 2018 | 2019>
-  transportCostPerPerson: number 
+  transportCostPerPerson: number
   setTransportCostPerPerson: Action<Model, number>
-  beladenKilometers: number 
-  setBeladenKilometers: Action<Model, number> 
+  beladenKilometers: number
+  setBeladenKilometers: Action<Model, number>
   klinischOpvangPercentage: number
   setKlinischOpvangPercentage: Action<Model, number>
   regioIndeling: RegioIndeling
   setRegioIndeling: Action<Model, RegioIndeling>
-  setZiekenhuisOpenDichtDagPersoneleBezetting: Action<Model, {ziekenhuis: IZiekenhuis, openDichtDagPersoneleBezetting: OpenDichtDagPersoneleBezetting}>
-  loadSEHForm: Action<Model, {ziekenhuisId: number, sehForm: ISEHForm}>
+  setZiekenhuisOpenDichtDagPersoneleBezetting: Action<Model, { ziekenhuis: IZiekenhuis, openDichtDagPersoneleBezetting: OpenDichtDagPersoneleBezetting }>
+  loadSEHForm: Action<Model, { ziekenhuisId: number, sehForm: ISEHForm }>
 }
 
-export default createStore<Model>({  
-  ziekenhuizen: initializeZiekenhuizen(), 
-  selectedZiekenhuis: undefined,
-  setSelectedZiekenhuis: action((state, ziekenhuis) => {state.selectedZiekenhuis = ziekenhuis }),
-  setZiekenhuisActiveCloseHour: action( (state, {ziekenhuis, close}) => {
+export default createStore<Model>({
+  ziekenhuizen: initializeZiekenhuizen(),
+  resetZiekenhuizen: action( (state) => {state.ziekenhuizen = initializeZiekenhuizen() }),
+  selectedZiekenhuisId: undefined,
+  setSelectedZiekenhuisId: action((state, ziekenhuisId) => { state.selectedZiekenhuisId = ziekenhuisId }),
+  setZiekenhuisActiveCloseHour: action((state, { ziekenhuis, close }) => {
     ziekenhuis.seh.currentActiveHours.close = close
     state.ziekenhuizen = [...state.ziekenhuizen.filter(zkh => zkh.id !== ziekenhuis.id), ziekenhuis]
   }),
-  setZiekenhuisActiveOpenHour: action( (state, {ziekenhuis, open}) => {
+  setZiekenhuisActiveOpenHour: action((state, { ziekenhuis, open }) => {
     ziekenhuis.seh.currentActiveHours.open = open
     state.ziekenhuizen = [...state.ziekenhuizen.filter(zkh => zkh.id !== ziekenhuis.id), ziekenhuis]
   }),
   closingWindow: 3,
-  setClosingWindow: action((state, closingWindow) => {state.closingWindow = closingWindow}),
+  setClosingWindow: action((state, closingWindow) => { state.closingWindow = closingWindow }),
   currentYear: 2018,
-  setCurrentYear: action((state, year) => {state.currentYear = year}),
+  setCurrentYear: action((state, year) => { state.currentYear = year }),
   transportCostPerPerson: 348,
-  setTransportCostPerPerson: action((state, cost) => {state.transportCostPerPerson = cost}),
+  setTransportCostPerPerson: action((state, cost) => { state.transportCostPerPerson = cost }),
   beladenKilometers: 25,
-  setBeladenKilometers: action((state, value) => {state.beladenKilometers = value}),
+  setBeladenKilometers: action((state, value) => { state.beladenKilometers = value }),
   klinischOpvangPercentage: 100,
-  setKlinischOpvangPercentage: action((state, value) => {state.klinischOpvangPercentage = value}),
+  setKlinischOpvangPercentage: action((state, value) => { state.klinischOpvangPercentage = value }),
   regioIndeling: 'roaz',
-  setRegioIndeling: action((state, regioIndeling) => {state.regioIndeling = regioIndeling}),
-  setZiekenhuisOpenDichtDagPersoneleBezetting: action((state, {ziekenhuis, openDichtDagPersoneleBezetting}) => {
+  setRegioIndeling: action((state, regioIndeling) => { state.regioIndeling = regioIndeling }),
+  setZiekenhuisOpenDichtDagPersoneleBezetting: action((state, { ziekenhuis, openDichtDagPersoneleBezetting }) => {
     ziekenhuis.seh.openDichtDagPersoneleBezetting = openDichtDagPersoneleBezetting
     state.ziekenhuizen = [...state.ziekenhuizen.filter(zkh => zkh.id !== ziekenhuis.id), ziekenhuis]
   }),
-  loadSEHForm: action((state, {ziekenhuisId, sehForm}) => {
-    const ziekenhuis = state.ziekenhuizen.find( ziekenhuis => ziekenhuis.id === ziekenhuisId)
-    if(!ziekenhuis) {
-      return 
+  loadSEHForm: action((state, { ziekenhuisId, sehForm }) => {
+    const ziekenhuis = state.ziekenhuizen.find(ziekenhuis => ziekenhuis.id === ziekenhuisId)
+    if (!ziekenhuis) {
+      return
     }
-    ziekenhuis.seh.sehForm = sehForm 
+    ziekenhuis.seh.sehForm = sehForm
     ziekenhuis.seh.isSehFormEmpty = false
-    console.log("reached here")
     state.ziekenhuizen = [...state.ziekenhuizen.filter(zkh => zkh.id !== ziekenhuis.id), ziekenhuis]
-  
   })
 })
