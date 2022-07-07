@@ -187,13 +187,13 @@ export const Map = () => {
 
       <LayersControl position="topright">
 
-        <LayersControl.BaseLayer checked name="Wereld">
+        <LayersControl.BaseLayer name="Wereld">
           <TileLayer
             url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
           />
         </LayersControl.BaseLayer>
 
-        <LayersControl.BaseLayer name="Grijs NL">
+        <LayersControl.BaseLayer checked name="Grijs NL">
           <TileLayer
             url='https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0?layer=grijs&style=default&tilematrixset=EPSG:3857&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:28992:{z}&TileCol={x}&TileRow={y}'
           />
