@@ -59,7 +59,7 @@ const App = () => {
     {
       header: (
         <div className="flex flex-row gap-2">
-          <div className="font-bold italic">Extra druk op SEH locaties</div>,
+          <div className="font-bold italic">Extra druk op SEH locaties</div>
           <InformationIcon informationText={EXTRA_DRUK_INFO} />
         </div>
       ),
