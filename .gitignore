@@ -1,6 +1,7 @@
 # custom 
 .env 
 todos.md
+*.pyc
 
 # dependencies
 /node_modules
