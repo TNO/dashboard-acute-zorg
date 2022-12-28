@@ -206,7 +206,12 @@ export const ZiekenhuisPanel: FC<Props> = ({ ziekenhuis }) => {
       <div className="w-full font-bold text-center"> Personeel </div>
 
       <DataTable data={[
-        { name: "bespaarde salariskosten", value: <div className="text-green-500">+{formatWithCommas(Math.round(extraSEHCosts.savedSalarisCosts))} €</div> },
+        {
+          name: "bespaarde salariskosten", value:
+            <div className="text-green-500">
+              +{formatWithCommas(Math.round(extraSEHCosts.savedSalarisCosts))} €
+            </div>
+        },
         { name: "transportkosten", value: <div className="text-red-500">-{formatWithCommas(Math.round(extraSEHCosts.extraKlinischTransportCosts))} €</div> },
         { name: "totaal bespaard", value: <div className={extraSEHCosts.savedTotal > 0 ? "text-green-500" : "text-red-500"}>{formatWithCommas(Math.round(extraSEHCosts.savedTotal))} €</div> },
       ]} />

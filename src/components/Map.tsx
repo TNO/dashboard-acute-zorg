@@ -128,6 +128,7 @@ export const Map = () => {
   const highlightedLatLon = selectedZiekenhuis?.latlon
   const currentRegioOption = regioIndelingOptions.find(option => option.value === regioIndeling)
 
+  // filters
   const [filter1, setFilter1] = useState(false)
   const [filter2, setFilter2] = useState(false)
   const [filter3, setFilter3] = useState(false)
@@ -168,6 +169,7 @@ export const Map = () => {
       const shouldStayClosed = (
         (filter5 && stedelijkeziekenhuizen.includes(ziekenhuis.id))
       )
+
 
       if ((!shouldStayOpen && shouldBeClosedBasedOnData) || shouldStayClosed) {
         setZiekenhuisActiveOpenHour({ ziekenhuis: ziekenhuis, open: 7 })
@@ -235,7 +237,6 @@ export const Map = () => {
 
       <RegioGeoJSON regioIndeling={regioIndeling} highlightedLatLon={highlightedLatLon} />
 
-
       <Control position="bottomleft">
         <div className="flex flex-col gap-2">
 
@@ -280,6 +281,7 @@ export const Map = () => {
           >
             <MenuItem value={"Roaz"}> {"Roaz"} </MenuItem>
           </Select>
+          
         </div>
         <div className="w-full flex gap-2 bg-slate-200 px-3 py-1 items-center">
           <div className="text-xl"> filter parameters voor nachtsluiting </div>

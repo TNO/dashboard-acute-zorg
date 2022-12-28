@@ -167,12 +167,16 @@ export default createStore<Model>({
     ziekenhuis.seh.currentActiveHours.open = open
     state.ziekenhuizen = [...state.ziekenhuizen.filter(zkh => zkh.id !== ziekenhuis.id), ziekenhuis]
   }),
+
   closingWindow: 3,
   setClosingWindow: action((state, closingWindow) => { state.closingWindow = closingWindow }),
+  
   currentYear: 2018,
   setCurrentYear: action((state, year) => { state.currentYear = year }),
+  
   transportCostPerPerson: 348,
   setTransportCostPerPerson: action((state, cost) => { state.transportCostPerPerson = cost }),
+  
   beladenKilometers: 25,
   setBeladenKilometers: action((state, value) => { state.beladenKilometers = value }),
   klinischOpvangPercentage: 100,

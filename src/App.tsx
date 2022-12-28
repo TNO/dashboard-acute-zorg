@@ -15,6 +15,7 @@ const App = () => {
 
   const ziekenhuizen = useStoreState(state => state.ziekenhuizen)
   const selectedZiekenhuisId = useStoreState(state => state.selectedZiekenhuisId)
+  
   const setZiekenhuisActiveOpenHour = useStoreActions(actions => actions.setZiekenhuisActiveOpenHour)
   const setZiekenhuisActiveCloseHour = useStoreActions(actions => actions.setZiekenhuisActiveCloseHour)
   const setZiekenhuisOpenDichtDagPersoneleBezetting = useStoreActions(actions => actions.setZiekenhuisOpenDichtDagPersoneleBezetting)
@@ -42,16 +43,11 @@ const App = () => {
   }, [ziekenhuizen])
 
   const [ziekenhuisIsClickable, setZiekenhuisIsClickable] = useState(false)
-  
+
   useEffect(() => {
     setZiekenhuisIsClickable(
       (selectedZiekenhuis !== undefined) &&
       (!selectedZiekenhuis.seh.isSehFormEmpty)
-    )
-    console.log(
-      (selectedZiekenhuis),
-      (selectedZiekenhuis?.seh.isSehFormEmpty),
-      (selectedZiekenhuis?.seh.sehForm)
     )
   }, [ziekenhuizen, selectedZiekenhuis])
 
@@ -81,9 +77,7 @@ const App = () => {
 
       <Map />
       <div className="p-2 sidepanel-container shadow-inner bg-neutral-100 flex flex-col gap-2">
-
         <HeaderPanel />
-
         <div className="mt-3">
           <SimpleAccordionComponent rows={accordionRows} />
         </div>

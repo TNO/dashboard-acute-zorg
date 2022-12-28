@@ -28,7 +28,7 @@ export const loadFromHash = (
     
     const [id, open, close, ...openDichtDagPersoneleBezettingArray] = ziekenhuisHash.split('-')
 
-    const penDichtDagPersoneleBezetting: OpenDichtDagPersoneleBezetting = {
+    const openDichtDagPersoneleBezetting: OpenDichtDagPersoneleBezetting = {
       open: {
         dag: {
           SEHartsen: parseInt(openDichtDagPersoneleBezettingArray[0]),
@@ -71,7 +71,7 @@ export const loadFromHash = (
       setZiekenhuisActiveCloseHour({ ziekenhuis: ziekenhuisToUpdate, close: Number(close) as Hour })
       setZiekenhuisOpenDichtDagPersoneleBezetting({
         ziekenhuis: ziekenhuisToUpdate,
-        openDichtDagPersoneleBezetting: penDichtDagPersoneleBezetting,
+        openDichtDagPersoneleBezetting: openDichtDagPersoneleBezetting,
       })
     }
   })
